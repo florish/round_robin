@@ -11,7 +11,7 @@ defmodule StandingsText do
     assert results_to_points(results) == [a: 2, b: 0, c: 1, a: 1, b: 0, c: 2]
   end
 
-  test "player_total returns total point for given player" do
+  test "player_total returns total points for given player" do
     assert player_total(:a, [a: 1, b: 2, a: 3, c: 0]) == 4
   end
 
